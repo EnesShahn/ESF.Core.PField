@@ -1,0 +1,16 @@
+{
+    "name": "ESF.Core.PField.Tests",
+    "rootNamespace": "ESF.Core.PField.Tests",
+    "references": [
+        "ESF.Core.PField"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

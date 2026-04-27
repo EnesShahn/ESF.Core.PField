@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8933e386c795edd45b210b1ce1840ece, type: 3}
+  m_Name: PField Inspector Test
+  m_EditorClassIdentifier: 
+  list1: []
+  plist1:
+    _items:
+    - rid: 4586148283115110518
+  list2:
+  - list:
+    - IntVar: 0
+      StringVar: 
+      SpriteVar: {fileID: 0}
+      BoolVar: 0
+    - IntVar: 0
+      StringVar: 
+      SpriteVar: {fileID: 0}
+      BoolVar: 0
+  plist2:
+    _items:
+    - rid: -2
+  list3:
+  - plist:
+      _items: []
+  plist3:
+    _items: []
+  var1:
+    rid: 4586148283115110515
+  var2:
+    IntVar: 0
+    StringVar: 
+    SpriteVar: {fileID: 0}
+    BoolVar: 0
+  var3:
+    plist:
+      _items: []
+  var4:
+    rid: 4586148283115110516
+  var5:
+    list: []
+  var6:
+    plist:
+      _items:
+      - rid: 4586148283115110521
+  var7:
+    rid: 4586148283115110523
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4586148283115110515
+      type: {class: BaseClass, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        IntVar: 0
+        StringVar: 
+        SpriteVar: {fileID: 0}
+        BoolVar: 0
+    - rid: 4586148283115110516
+      type: {class: PListBaseClass, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        plist:
+          _items: []
+    - rid: 4586148283115110518
+      type: {class: ChildClass2, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        IntVar: 0
+        StringVar: 
+        SpriteVar: {fileID: 0}
+        BoolVar: 0
+        ChildFloatVar: 0
+        ChildFloatListVar:
+        - 0
+        ChildStructVar:
+        - FloatVar: 0
+    - rid: 4586148283115110521
+      type: {class: PListBaseClass, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        plist:
+          _items:
+          - rid: 4586148283115110522
+    - rid: 4586148283115110522
+      type: {class: ChildClass3, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        IntVar: 0
+        StringVar: 
+        SpriteVar: {fileID: 0}
+        BoolVar: 0
+        StringListVar:
+        - Test
+        ChildFloatVar: 0
+    - rid: 4586148283115110523
+      type: {class: PListPListBaseClass, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        plist:
+          _items:
+          - rid: 4586148283115110525
+    - rid: 4586148283115110525
+      type: {class: PListBaseClass, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        plist:
+          _items:
+          - rid: 4586148283115110526
+    - rid: 4586148283115110526
+      type: {class: ChildClass3, ns: ESF.Core.PField.Tests, asm: ESF.Core.PField.Tests}
+      data:
+        IntVar: 0
+        StringVar: 
+        SpriteVar: {fileID: 0}
+        BoolVar: 0
+        StringListVar: []
+        ChildFloatVar: 0
